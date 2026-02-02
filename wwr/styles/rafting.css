@@ -131,9 +131,21 @@ article {
     grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
     padding: 2rem 0;
+    justify-items: center;
+    text-align: center;
 }
 
-.adventures h2 {
+.serve-you {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 2rem 0;
+    justify-items: center;
+    text-align: center;
+}
+
+.adventures h2,
+.serve-you h2 {
     grid-column: 1 / -1;
     text-align: center;
     margin-bottom: 1rem;
@@ -174,4 +186,51 @@ article {
     width: 32px;
     /* keeps images fitting nicely */
     height: auto;
+}
+
+.contact-info {
+    text-align: center;
+
+}
+
+.contact-info p {
+    margin: 0 0 0 0;
+    line-height: .5;
+}
+
+.map-contact {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.map,
+.contact {
+    flex: 1;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    border: 0;
+}
+
+.form-item {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.form-purpose label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.form-item input,
+.form-item textarea {
+    width: 100%;
+    padding: 8px;
 }
