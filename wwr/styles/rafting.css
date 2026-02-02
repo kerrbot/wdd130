@@ -31,12 +31,6 @@ footer {
     margin: 0 auto;
 }
 
-h1,
-h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
-
 /* h1 {
     position: absolute;
     top: 20px;
@@ -51,6 +45,8 @@ h2 {
 h1,
 h2 {
     position: relative;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
     top: 20px;
     width: 100%;
     padding: 16px;
