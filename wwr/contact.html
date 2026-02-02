@@ -22,7 +22,7 @@
         </nav>
     </header>
     <main>
-        <h2>Cougar White Water Rafting</h2>
+        <h1>Cougar White Water Rafting</h1>
         <div class="contact-info">
             <p></p>
             <p></p>
@@ -39,7 +39,7 @@
                   referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="contact">
-                <form action="">
+                <form action="#" method="get">
                     <div class="form-item">
                         <label>Full Name:<input type="text" id="contact1" name="contact1"
                               required></label>
@@ -52,25 +52,28 @@
                         <legend>Message Purpose</legend>
 
                         <label>
-                            <input type="radio" name="purpose" value="purpose-general">
+                            <input type="radio" id="purpose" name="purpose" value="purpose-general">
                             General Inquiry
                         </label>
 
                         <label>
-                            <input type="radio" name="purpose" value="purpose-reservation">
+                            <input type="radio" id="purpose" name="purpose"
+                              value="purpose-reservation">
                             Reservation Question
                         </label>
 
                         <label>
-                            <input type="radio" name="purpose" value="purpose-website">
+                            <input type="radio" id="purpose" name="purpose" value="purpose-website">
                             Website Suggestion
                         </label>
                     </fieldset>
                     <fieldset class="form-item">
                         <legend>Message</legend>
                         <div class="form-item">
-                            <textarea name="inquiry-message" id="inquiry-message" rows="4"
-                              placeholder="Type Here..."></textarea>
+                            <label for="inquiry-message">
+                                <textarea name="inquiry-message" id="inquiry-message" rows="4"
+                                  placeholder="Type Here..."></textarea>
+                            </label>
                         </div>
                     </fieldset>
                     <div>
